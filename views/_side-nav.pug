@@ -1,0 +1,47 @@
+nav.user-view__menu
+  ul.side-nav
+    li
+      a(href='/settings')
+        svg
+          use(xlink:href='img/icons.svg#icon-settings')
+        | Settings
+    li
+      //- .side-nav--active
+      a(href='/my-requests')
+        svg
+          use(xlink:href='img/icons.svg#icon-briefcase')
+        | My requests
+    li
+      a(href='/my-comments')
+        svg
+          use(xlink:href='img/icons.svg#icon-star')
+        | My documents
+    li
+      a(href='#')
+        svg
+          use(xlink:href='img/icons.svg#icon-credit-card')
+        | My uploads
+  - if (user.role === 'admin')
+    .admin-nav
+      h5.admin-nav__heading Admin
+      ul.side-nav
+        li
+          a(href='#')
+            svg
+              use(xlink:href='img/icons.svg#icon-map')
+            | Manage requests
+        li
+          a(href='#')
+            svg
+              use(xlink:href='img/icons.svg#icon-users')
+            | Manage users
+        li
+          a(href='#')
+            svg
+              use(xlink:href='img/icons.svg#icon-star')
+            | Manage comments
+        li
+          a(href='#')
+            svg
+              use(xlink:href='img/icons.svg#icon-briefcase')
+            | Manage billings

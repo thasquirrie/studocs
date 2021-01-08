@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/utilities.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- <link rel="stylesheet" href="css/styles.css"> -->
+    <link rel="shortcut icon" href="images/favicon.png" />
+    <title>Studocs | Student Crowdsourcing Site</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <div class="navbar">
+      <div class="container flex">
+        <h1 class="logo">Studocs.</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="">Features</a></li>
+            <li><a href="signup.html">Sign in</a></li>
+            <li><a href="login.html">Log in</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Showcase -->
+    <section class="showcase">
+      <div class="container grid">
+        <div class="showcase-text">
+          <h1>Find your study documents</h1>
+          <p>
+            Welcome to this student crowdsourcing site where everybody is
+            responsible for each others progress academically. <br />
+            Get your study resource or help someone by uploading or helping them
+            get the resources they're looking for.
+          </p>
+          <a href="features.html" class="btn btn-outline">Read More</a>
+        </div>
+
+        <div class="showcase-form card">
+          <h2>Join our mailing list</h2>
+          <form action="">
+            <div class="form-control">
+              <input
+                type="text"
+                name="name"
+                id=""
+                placeholder="Name"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <input
+                type="text"
+                name="university"
+                id=""
+                placeholder="University"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <input
+                type="email"
+                name="email"
+                id=""
+                placeholder="Email"
+                required
+              />
+            </div>
+            <input type="submit" value="Send" class="btn btn-primary" />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats">
+      <div class="container">
+        <h3 class="stats-heading text-center my-1">
+          Welcome to this platform for crowdsourcing, where students come
+          together to help each other while improving their knowledge and
+          grades.
+        </h3>
+
+        <div class="grid grid-3 text-center my-4">
+          <div>
+            <svg
+              class="illus-figures"
+              width="150"
+              height="150"
+              viewBox="0 0 120 120"
+              fill="none"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M25 59c13.807 0 25-11.193 25-25S38.807 9 25 9 0 20.193 0 34s11.193 25 25 25z"
+                fill="#F8C865"
+              ></path>
+              <path
+                opacity="0.758"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M110 118c5.523 0 10-4.477 10-10s-4.477-10-10-10-10 4.477-10 10 4.477 10 10 10z"
+                fill="#63C689"
+              ></path>
+              <path
+                opacity="0.758"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M101 113a9 9 0 009-9 9 9 0 10-9 9zM10 118c5.523 0 10-4.477 10-10s-4.477-10-10-10-10 4.477-10 10 4.477 10 10 10z"
+                fill="#63C689"
+              ></path>
+              <path
+                opacity="0.758"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M19 113a9 9 0 10-9-9 9 9 0 009 9z"
+                fill="#63C689"
+              ></path>
+              <path d="M31 51h58v55H31V51z" fill="#C9D9E3"></path>
+              <path d="M27 51h8v55h-8V51z" fill="#fff"></path>
+              <path
+                d="M26 51h10v3H26v-3zM26 103h10v3H26v-3zM41 51h8v55h-8V51z"
+                fill="#fff"
+              ></path>
+              <path
+                d="M40 51h10v3H40v-3zM40 103h10v3H40v-3zM56 51h8v55h-8V51z"
+                fill="#fff"
+              ></path>
+              <path
+                d="M55 51h10v3H55v-3zM55 103h10v3H55v-3zM71 51h8v55h-8V51z"
+                fill="#fff"
+              ></path>
+              <path
+                d="M70 51h10v3H70v-3zM70 103h10v3H70v-3zM85 51h8v55h-8V51z"
+                fill="#fff"
+              ></path>
+              <path
+                d="M84 51h10v3H84v-3zM84 103h10v3H84v-3z"
+                fill="#fff"
+              ></path>
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M20.757 106.649a1 1 0 01.936-.649h76.614a1 1 0 01.936.649L102 114H18l2.757-7.351z"
+                fill="#fff"
+              ></path>
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M12.724 112.553a1 1 0 01.894-.553h92.764c.379 0 .725.214.894.553l3 6a1 1 0 01-.894 1.447H10.618a1 1 0 01-.894-1.447l3-6zM15 45h90l-3.406 5.11c-.371.556-.996.89-1.664.89H20.07a2 2 0 01-1.664-.89L15 45zM58.657 18.67a3 3 0 012.684 0l48.87 24.436c.944.471.608 1.894-.447 1.894H10.236c-1.055 0-1.391-1.422-.447-1.894L58.657 18.67z"
+                fill="#fff"
+              ></path>
+              <path
+                opacity="0.2"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M19 110h82v1H19v-1zM26 105h68v1H26v-1zM26 50h68v1H26v-1zM15 44h90v1H15v-1z"
+                fill="#E6E6E6"
+              ></path>
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M60 38a6 6 0 100-12 6 6 0 000 12z"
+                fill="#C9D9E3"
+              ></path>
+              <path d="M59 1a1 1 0 011-1h1v19h-2V1z" fill="#C9D9E3"></path>
+              <rect
+                x="63"
+                y="2"
+                width="8"
+                height="8"
+                rx="1"
+                fill="#15689E"
+              ></rect>
+              <path
+                d="M61 0h7a1 1 0 011 1v6a1 1 0 01-1 1h-7V0z"
+                fill="#138AD6"
+              ></path>
+            </svg>
+            <h3 class="py-1">1</h3>
+            <p class="text-secondary">University</p>
+          </div>
+
+          <div>
+            <svg
+              class="illus-figures"
+              width="150"
+              height="150"
+              alt="Book Illustration"
+              viewBox="0 0 120 120"
+              fill="none"
+            >
+              <mask id="book-illus_svg__a" fill="#fff">
+                <rect x="32" width="88" height="119" rx="6"></rect>
+              </mask>
+              <rect
+                x="32"
+                width="88"
+                height="119"
+                rx="6"
+                fill="#fff"
+                stroke="#484848"
+                stroke-width="16"
+                mask="url(#book-illus_svg__a)"
+              ></rect>
+              <path fill="#2F3E4E" d="M40 8h72v6H40z"></path>
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M44.173 11.8c.38 0 .564-.119.56-.358 0-.14-.086-.235-.265-.286-.17-.051-.367-.102-.576-.158-.568-.145-.85-.41-.85-.793.014-.61.376-.91 1.093-.905.683 0 1.037.299 1.07.9h-.332c-.124 0-.209-.06-.264-.17-.099-.167-.273-.248-.525-.248-.307.005-.461.12-.474.342 0 .183.184.315.563.4.218.052.448.116.692.201.324.111.477.35.46.717-.034.567-.418.85-1.152.85-.768 0-1.156-.32-1.173-.952h.576c.021.307.218.46.597.46zm2.351-1.685a.276.276 0 01-.281.282h-.06v1.25c0 .094.056.145.166.145h.175v.43a3.118 3.118 0 01-.597-.003c-.213-.022-.316-.154-.312-.406V9.347h.295c.15 0 .273.137.273.286v.358h.341v.124zm2.138-.124v1.357c0 .388-.098.644-.299.768-.2.115-.422.175-.665.175-.235 0-.444-.064-.64-.192-.197-.124-.295-.371-.295-.75V9.99h.568v1.472c0 .252.128.376.384.376s.384-.124.384-.376v-1.19c-.005-.188.085-.282.273-.282h.29zm1.383-.644c.921 0 1.322.525 1.322 1.45 0 .713-.307 1.242-.866 1.392-.145.038-.35.06-.614.06h-.977v-2.59c0-.201.098-.308.298-.312h.837zm.716 1.45c0-.58-.179-.942-.717-.942h-.55v1.869h.474c.588 0 .793-.316.793-.926zm1.886-.84c.683 0 1.029.388 1.029 1.173 0 .777-.346 1.17-1.029 1.17-.682 0-1.024-.393-1.024-1.17 0-.785.342-1.173 1.024-1.173zm0 .5c-.298 0-.448.225-.448.673.005.44.154.662.444.662.29 0 .435-.23.44-.678 0-.44-.146-.658-.436-.658zm3.294 1.1c-.102.461-.435.755-.96.743-.683 0-1.032-.393-1.05-1.17 0-.772.346-1.16 1.042-1.173.546 0 .87.243.968.734h-.619a.37.37 0 00-.367-.235c-.298 0-.447.226-.447.675 0 .448.157.674.473.67a.443.443 0 00.341-.163.262.262 0 01.192-.08h.427zm2.198-1.566v1.357c0 .388-.099.644-.3.768-.2.115-.422.175-.665.175-.234 0-.444-.064-.64-.192-.196-.124-.294-.371-.294-.75V9.99h.567v1.472c0 .252.128.376.384.376s.384-.124.384-.376v-1.19c-.004-.188.086-.282.273-.282h.29z"
+                fill="#fff"
+              ></path>
+              <rect
+                x="46"
+                y="20"
+                width="33"
+                height="3"
+                rx="1.5"
+                fill="#EAEAEA"
+              ></rect>
+              <rect
+                x="46"
+                y="26"
+                width="46"
+                height="3"
+                rx="1.5"
+                fill="#EAEAEA"
+              ></rect>
+              <rect
+                x="46"
+                y="37"
+                width="60"
+                height="3"
+                rx="1.5"
+                fill="#EAEAEA"
+              ></rect>
+              <rect
+                x="46"
+                y="43"
+                width="54"
+                height="3"
+                rx="1.5"
+                fill="#EAEAEA"
+              ></rect>
+              <rect
+                x="46"
+                y="49"
+                width="58"
+                height="3"
+                rx="1.5"
+                fill="#EAEAEA"
+              ></rect>
+              <rect
+                x="46"
+                y="55"
+                width="56"
+                height="3"
+                rx="1.5"
+                fill="#EAEAEA"
+              ></rect>
+              <rect
+                x="46"
+                y="61"
+                width="60"
+                height="3"
+                rx="1.5"
+                fill="#EAEAEA"
+              ></rect>
+              <rect
+                x="46"
+                y="67"
+                width="54"
+                height="3"
+                rx="1.5"
+                fill="#EAEAEA"
+              ></rect>
+              <rect
+                x="46"
+                y="73"
+                width="58"
+                height="3"
+                rx="1.5"
+                fill="#EAEAEA"
+              ></rect>
+              <rect
+                x="46"
+                y="79"
+                width="56"
+                height="3"
+                rx="1.5"
+                fill="#EAEAEA"
+              ></rect>
+              <rect
+                x="46"
+                y="85"
+                width="60"
+                height="3"
+                rx="1.5"
+                fill="#EAEAEA"
+              ></rect>
+              <rect
+                x="46"
+                y="91"
+                width="54"
+                height="3"
+                rx="1.5"
+                fill="#EAEAEA"
+              ></rect>
+              <rect
+                x="46"
+                y="97"
+                width="58"
+                height="3"
+                rx="1.5"
+                fill="#EAEAEA"
+              ></rect>
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M76 5a1 1 0 100-2 1 1 0 000 2z"
+                fill="#000"
+              ></path>
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M4 102a5 5 0 015-5h5v20H9a5 5 0 01-5-5v-10z"
+                fill="#4B4B4B"
+              ></path>
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M8 97h74v20H8V97z"
+                fill="#FFF5E8"
+              ></path>
+              <rect
+                x="10"
+                y="99"
+                width="70"
+                height="1"
+                rx="0.5"
+                fill="#F6ECDF"
+              ></rect>
+              <rect
+                x="10"
+                y="101"
+                width="70"
+                height="1"
+                rx="0.5"
+                fill="#F6ECDF"
+              ></rect>
+              <rect
+                x="10"
+                y="103"
+                width="70"
+                height="1"
+                rx="0.5"
+                fill="#F6ECDF"
+              ></rect>
+              <rect
+                x="10"
+                y="105"
+                width="70"
+                height="1"
+                rx="0.5"
+                fill="#F6ECDF"
+              ></rect>
+              <rect
+                x="10"
+                y="107"
+                width="70"
+                height="1"
+                rx="0.5"
+                fill="#F6ECDF"
+              ></rect>
+              <rect
+                x="10"
+                y="109"
+                width="70"
+                height="1"
+                rx="0.5"
+                fill="#F6ECDF"
+              ></rect>
+              <rect
+                x="10"
+                y="111"
+                width="70"
+                height="1"
+                rx="0.5"
+                fill="#F6ECDF"
+              ></rect>
+              <rect
+                x="10"
+                y="113"
+                width="70"
+                height="1"
+                rx="0.5"
+                fill="#F6ECDF"
+              ></rect>
+              <mask id="book-illus_svg__b" fill="#fff">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M83 120H13.142C5.884 120 0 113.956 0 106.5S5.884 93 13.142 93H83"
+                ></path>
+              </mask>
+              <path
+                d="M83 124a4 4 0 000-8v8zm0-27a4 4 0 000-8v8zm0 19H13.142v8H83v-8zm-69.858 0C8.194 116 4 111.849 4 106.5h-8c0 9.563 7.574 17.5 17.142 17.5v-8zM4 106.5c0-5.349 4.194-9.5 9.142-9.5v-8C3.574 89-4 96.937-4 106.5h8zm9.142-9.5H83v-8H13.142v8z"
+                fill="#57C685"
+                mask="url(#book-illus_svg__b)"
+              ></path>
+              <path
+                d="M74 93h9a2 2 0 110 4h-9v-4zM74 116h9a2 2 0 110 4h-9v-4z"
+                fill="#57C685"
+              ></path>
+              <path fill="#FFF5E8" d="M6 75h74v15H6z"></path>
+              <rect
+                x="8"
+                y="77"
+                width="70"
+                height="1"
+                rx="0.5"
+                fill="#F6ECDF"
+              ></rect>
+              <rect
+                x="8"
+                y="79"
+                width="70"
+                height="1"
+                rx="0.5"
+                fill="#F6ECDF"
+              ></rect>
+              <rect
+                x="8"
+                y="81"
+                width="70"
+                height="1"
+                rx="0.5"
+                fill="#F6ECDF"
+              ></rect>
+              <rect
+                x="8"
+                y="83"
+                width="70"
+                height="1"
+                rx="0.5"
+                fill="#F6ECDF"
+              ></rect>
+              <rect
+                x="8"
+                y="85"
+                width="70"
+                height="1"
+                rx="0.5"
+                fill="#F6ECDF"
+              ></rect>
+              <rect
+                x="8"
+                y="87"
+                width="70"
+                height="1"
+                rx="0.5"
+                fill="#F6ECDF"
+              ></rect>
+              <mask id="book-illus_svg__c" fill="#fff">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M80 93H9.192C2.458 93 3 88.299 3 82.5S2.458 72 9.192 72H80"
+                ></path>
+              </mask>
+              <path
+                d="M80 96a3 3 0 100-6v6zM9.192 72v3-3zM80 75a3 3 0 100-6v6zm0 15H9.192v6H80v-6zM9.192 90c-1.367 0-2.004-.243-2.278-.406-.205-.12-.373-.288-.531-.715-.189-.508-.315-1.267-.365-2.422-.05-1.17-.018-2.4-.018-3.957H0c0 1.343-.035 2.875.023 4.217.06 1.357.218 2.86.736 4.253.548 1.474 1.507 2.844 3.095 3.785C5.372 95.655 7.19 96 9.192 96v-6zM6 82.5c0-1.556-.033-2.787.018-3.957.05-1.155.176-1.914.365-2.422.158-.427.326-.594.53-.715.275-.163.912-.406 2.279-.406v-6c-2 0-3.82.344-5.338 1.245-1.588.941-2.547 2.311-3.095 3.785-.518 1.392-.677 2.896-.736 4.253C-.035 79.625 0 81.157 0 82.5h6zM9.192 75H80v-6H9.192v6z"
+                fill="#EF6E48"
+                mask="url(#book-illus_svg__c)"
+              ></path>
+              <path d="M71 72h9.5a1.5 1.5 0 010 3H71v-3z" fill="#EF6E48"></path>
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M71 90h9.5a1.5 1.5 0 010 3H71v-3z"
+                fill="#EF6E48"
+              ></path>
+              <path
+                fill="#FFF5E8"
+                d="M2.621 51.594h77.483v17.969H2.621z"
+              ></path>
+              <rect
+                x="6"
+                y="54"
+                width="72"
+                height="1"
+                rx="0.5"
+                fill="#F6ECDF"
+              ></rect>
+              <rect
+                x="6"
+                y="56"
+                width="72"
+                height="1"
+                rx="0.5"
+                fill="#F6ECDF"
+              ></rect>
+              <rect
+                x="6"
+                y="58"
+                width="72"
+                height="1"
+                rx="0.5"
+                fill="#F6ECDF"
+              ></rect>
+              <rect
+                x="6"
+                y="60"
+                width="72"
+                height="1"
+                rx="0.5"
+                fill="#F6ECDF"
+              ></rect>
+              <rect
+                x="6"
+                y="62"
+                width="72"
+                height="1"
+                rx="0.5"
+                fill="#F6ECDF"
+              ></rect>
+              <rect
+                x="6"
+                y="64"
+                width="72"
+                height="1"
+                rx="0.5"
+                fill="#F6ECDF"
+              ></rect>
+              <rect
+                x="6"
+                y="66"
+                width="72"
+                height="1"
+                rx="0.5"
+                fill="#F6ECDF"
+              ></rect>
+              <mask id="book-illus_svg__d" fill="#fff">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M80.38 72H6.933C-.096 72 0 66.851 0 60.5S-.095 49 6.934 49h73.445"
+                ></path>
+              </mask>
+              <path
+                d="M80.38 75a3 3 0 100-6v6zm0-23a3 3 0 100-6v6zm0 17H6.933v6h73.445v-6zM6.933 69c-1.412 0-2.143-.26-2.517-.483-.325-.193-.585-.476-.81-1.025-.253-.614-.429-1.489-.52-2.735C2.996 63.515 3 62.127 3 60.5h-6c0 1.548-.008 3.186.103 4.696.11 1.505.35 3.108.953 4.576.63 1.531 1.663 2.933 3.297 3.903C2.938 74.617 4.83 75 6.933 75v-6zM3 60.5c0-1.627-.004-3.015.087-4.257.091-1.246.267-2.122.519-2.735.226-.55.486-.832.811-1.025C4.791 52.26 5.522 52 6.934 52v-6c-2.103 0-3.996.383-5.581 1.325-1.634.97-2.668 2.372-3.297 3.903-.603 1.468-.843 3.07-.953 4.576C-3.007 57.314-3 58.952-3 60.5h6zM6.934 52h73.445v-6H6.934v6z"
+                fill="#ED8F50"
+                mask="url(#book-illus_svg__d)"
+              ></path>
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M72 49h10.086a1.5 1.5 0 010 3H72v-3zM72 69h10.086a1.5 1.5 0 010 3H72v-3z"
+                fill="#ED8F50"
+              ></path>
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M25 58h29v1H25v-1z"
+                fill="#E8DED1"
+              ></path>
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M39 58h10v19l-4.24-4.958a1 1 0 00-1.52 0L39 77V58z"
+                fill="#405F79"
+              ></path>
+            </svg>
+            <h3 class="py-1">200</h3>
+            <p class="text-secondary">Books</p>
+          </div>
+          <div>
+            <svg
+              width="150"
+              height="150"
+              viewBox="0 0 84 78"
+              class="illus-figures"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M10 35C10 34.4477 10.4477 34 11 34H73C73.5523 34 74 34.4477 74 35V73H10V35Z"
+                fill="#63C689"
+              ></path>
+              <g filter="url(#filter0_d)">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M19 5C19 3.89543 19.8954 3 21 3H63C64.1046 3 65 3.89543 65 5V31H19V5Z"
+                  fill="#F8FBE5"
+                ></path>
+              </g>
+              <rect
+                x="23"
+                y="9"
+                width="15.2308"
+                height="1.33333"
+                rx="0.666667"
+                fill="#D8D8D8"
+              ></rect>
+              <rect
+                x="23"
+                y="11.6667"
+                width="18"
+                height="1.33333"
+                rx="0.666667"
+                fill="#D8D8D8"
+              ></rect>
+              <rect
+                x="23"
+                y="19"
+                width="16.4444"
+                height="1.375"
+                rx="0.6875"
+                fill="#D8D8D8"
+              ></rect>
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M23 23.8125C23 23.4328 23.3078 23.125 23.6875 23.125H42.8681C43.2478 23.125 43.5556 23.4328 43.5556 23.8125V23.8125C43.5556 24.1922 43.2478 24.5 42.8681 24.5H23.6875C23.3078 24.5 23 24.1922 23 23.8125V23.8125Z"
+                fill="#D8D8D8"
+              ></path>
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M23 29.3125C23 28.9328 23.3078 28.625 23.6875 28.625H36.0162C36.3959 28.625 36.7037 28.9328 36.7037 29.3125V29.3125C36.7037 29.6922 36.3959 30 36.0162 30H23.6875C23.3078 30 23 29.6922 23 29.3125V29.3125Z"
+                fill="#D8D8D8"
+              ></path>
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M38.074 29.3125C38.074 28.9328 38.3818 28.625 38.7615 28.625H45.6087C45.9884 28.625 46.2962 28.9328 46.2962 29.3125V29.3125C46.2962 29.6922 45.9884 30 45.6087 30H38.7615C38.3818 30 38.074 29.6922 38.074 29.3125V29.3125Z"
+                fill="#D8D8D8"
+              ></path>
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M47.6667 29.3125C47.6667 28.9328 47.9746 28.625 48.3542 28.625H57.9422C58.3219 28.625 58.6297 28.9328 58.6297 29.3125V29.3125C58.6297 29.6922 58.3219 30 57.9422 30H48.3542C47.9746 30 47.6667 29.6922 47.6667 29.3125V29.3125Z"
+                fill="#D8D8D8"
+              ></path>
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M44.926 23.8125C44.926 23.4328 45.2338 23.125 45.6135 23.125H56.5719C56.9516 23.125 57.2594 23.4328 57.2594 23.8125V23.8125C57.2594 24.1922 56.9516 24.5 56.5719 24.5H45.6135C45.2338 24.5 44.926 24.1922 44.926 23.8125V23.8125Z"
+                fill="#D8D8D8"
+              ></path>
+              <rect
+                x="23"
+                y="25.875"
+                width="9.59259"
+                height="1.375"
+                rx="0.6875"
+                fill="#D8D8D8"
+              ></rect>
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M46.2964 26.5625C46.2964 26.1828 46.6042 25.875 46.9839 25.875H59.3126C59.6923 25.875 60.0001 26.1828 60.0001 26.5625V26.5625C60.0001 26.9422 59.6923 27.25 59.3126 27.25H46.9839C46.6042 27.25 46.2964 26.9422 46.2964 26.5625V26.5625Z"
+                fill="#D8D8D8"
+              ></path>
+              <rect
+                x="33.9629"
+                y="25.875"
+                width="10.963"
+                height="1.375"
+                rx="0.6875"
+                fill="#D8D8D8"
+              ></rect>
+              <path
+                d="M49 9.99999C51.1667 9.33332 56 8.09999 58 8.49999C60.5 8.99999 62 12.5 58 15.5C53.8817 18.5887 50.5 16.5311 50.5 12.5C50.5 11 52 8 52.5 7.5"
+                stroke="#D22300"
+                stroke-linejoin="round"
+              ></path>
+              <path
+                d="M52 15.0001C52.8333 13.5001 54.7 10.8 55.5 10C55.1667 11.3333 54.6 14.2 55 15"
+                stroke="#D22300"
+                stroke-width="0.7"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+              <path
+                d="M52 13.5C52.5 13.6667 53.4343 13.5001 54 13.5C54.5 13.5 55 13.5 55.5 13.5"
+                stroke="#D22300"
+                stroke-width="0.7"
+                stroke-linecap="round"
+              ></path>
+              <path
+                d="M56 12.3H57.7C58.0866 12.3 58.4 12.6134 58.4 13V13H56.7C56.3134 13 56 12.6866 56 12.3V12.3Z"
+                fill="#D22300"
+              ></path>
+              <path
+                d="M56.45 13.6501L57.0483 12.0589C57.1843 11.6971 57.588 11.514 57.9499 11.6501V11.6501L57.3515 13.2413C57.2155 13.6032 56.8118 13.7862 56.45 13.6501V13.6501Z"
+                fill="#D22300"
+              ></path>
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M19 34H65V58C65 59.1046 64.1046 60 63 60H21C19.8954 60 19 59.1046 19 58V34Z"
+                fill="white"
+              ></path>
+              <rect
+                x="37"
+                y="40"
+                width="15"
+                height="1"
+                rx="0.5"
+                fill="#D8D8D8"
+              ></rect>
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M37 43.5C37 43.2239 37.2239 43 37.5 43H54.5C54.7761 43 55 43.2239 55 43.5V43.5C55 43.7761 54.7761 44 54.5 44H37.5C37.2239 44 37 43.7761 37 43.5V43.5Z"
+                fill="#D8D8D8"
+              ></path>
+              <path
+                d="M30.5 42C30.5 43.933 28.933 45.5 27 45.5C25.067 45.5 23.5 43.933 23.5 42C23.5 40.067 25.067 38.5 27 38.5C28.933 38.5 30.5 40.067 30.5 42Z"
+                fill="white"
+                stroke="#D8D8D8"
+              ></path>
+              <path
+                d="M24 39.4936L27.3196 43L33 37"
+                stroke="#63C689"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+              <rect
+                x="37"
+                y="50"
+                width="15"
+                height="1"
+                rx="0.5"
+                fill="#D8D8D8"
+              ></rect>
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M37 53.5C37 53.2239 37.2239 53 37.5 53H54.5C54.7761 53 55 53.2239 55 53.5V53.5C55 53.7761 54.7761 54 54.5 54H37.5C37.2239 54 37 53.7761 37 53.5V53.5Z"
+                fill="#D8D8D8"
+              ></path>
+              <path
+                d="M30.5 52C30.5 53.933 28.933 55.5 27 55.5C25.067 55.5 23.5 53.933 23.5 52C23.5 50.067 25.067 48.5 27 48.5C28.933 48.5 30.5 50.067 30.5 52Z"
+                fill="white"
+                stroke="#D8D8D8"
+              ></path>
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M9 31C7.89543 31 7 31.8954 7 33V75H77V33C77 31.8954 76.1046 31 75 31H9ZM11 34C10.4477 34 10 34.4477 10 35V72H74V35C74 34.4477 73.5523 34 73 34H11Z"
+                fill="#434A54"
+              ></path>
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M42.5 33C42.7761 33 43 32.7761 43 32.5C43 32.2239 42.7761 32 42.5 32C42.2239 32 42 32.2239 42 32.5C42 32.7761 42.2239 33 42.5 33Z"
+                fill="#0F223C"
+              ></path>
+              <rect
+                x="19"
+                y="64"
+                width="13"
+                height="1"
+                rx="0.5"
+                fill="white"
+              ></rect>
+              <rect
+                x="34"
+                y="64"
+                width="6"
+                height="1"
+                rx="0.5"
+                fill="white"
+              ></rect>
+              <rect
+                x="42"
+                y="64"
+                width="9"
+                height="1"
+                rx="0.5"
+                fill="white"
+              ></rect>
+              <rect
+                x="19"
+                y="67"
+                width="15"
+                height="1"
+                rx="0.5"
+                fill="white"
+              ></rect>
+              <rect
+                x="36"
+                y="67"
+                width="8"
+                height="1"
+                rx="0.5"
+                fill="white"
+              ></rect>
+              <rect
+                x="46"
+                y="67"
+                width="5"
+                height="1"
+                rx="0.5"
+                fill="white"
+              ></rect>
+              <rect
+                x="53"
+                y="64"
+                width="12"
+                height="4"
+                rx="1"
+                fill="#0188D7"
+              ></rect>
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M0.101822 75.7888C-0.132503 75.4577 0.104303 75 0.509975 75H83.4901C83.8958 75 84.1326 75.4577 83.8982 75.7888L83.2302 76.7329C82.6679 77.5276 81.7549 78 80.7813 78H3.21876C2.2452 78 1.33219 77.5276 0.769842 76.7329L0.101822 75.7888Z"
+                fill="#434A54"
+              ></path>
+              <path
+                d="M36 75H48V75C48 75.5523 47.5523 76 47 76H37C36.4477 76 36 75.5523 36 75V75Z"
+                fill="#747F8E"
+              ></path>
+              <defs>
+                <filter
+                  id="filter0_d"
+                  x="15"
+                  y="0"
+                  width="54"
+                  height="36"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood
+                    flood-opacity="0"
+                    result="BackgroundImageFix"
+                  ></feFlood>
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                  ></feColorMatrix>
+                  <feOffset dy="1"></feOffset>
+                  <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"
+                  ></feColorMatrix>
+                  <feBlend
+                    mode="normal"
+                    in2="BackgroundImageFix"
+                    result="effect1_dropShadow"
+                  ></feBlend>
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="effect1_dropShadow"
+                    result="shape"
+                  ></feBlend>
+                </filter>
+              </defs>
+            </svg>
+            <h3 class="py-1">500</h3>
+            <p class="text-secondary">Exam Questions</p>
+          </div>
+          <!-- <div>
+          <i class="fas fa-university fa-3x"></i>
+          <h3>1</h3>
+          <p class="text-secondary">University</p>
+        </div>
+
+        <div>
+          <i class="fas fa-book fa-3x"></i>
+          <h3>200</h3>
+          <p class="text-secondary">Books</p>
+        </div>
+
+        <div>
+          <i class="fas fa-university fa-3x"></i>
+          <h3></h3>
+          <p class="text-secondary">University</p>
+        </div> -->
+        </div>
+      </div>
+    </section>
+
+    <section class="list py-3">
+      <div class="container grid">
+        <div class="card">
+          <h3>Study resources for free</h3>
+        </div>
+        <div>
+          <div class="card my-1">
+            <h3>Easy to use</h3>
+          </div>
+
+          <div class="card my-1">
+            <h3>Ask questions and get answers</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="search py-5">
+      <div class="container">
+        <form action="" class="search-form">
+          <i class="fas fa-search fa-2x"></i>
+          <input type="text" name="search" placeholder="Find study resources" />
+          <input type="submit" value="Search" class="btn btn-primary" />
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark py-5">
+      <div class="container grid grid-3">
+        <div>
+          <h1>Studocs</h1>
+          <p>Copyright &copy; 2020</p>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="search.html">Search</a></li>
+          </ul>
+        </nav>
+
+        <div class="flex social">
+          <a href="https://github.com/thasquirrie"
+            ><i class="fab fa-github fa-3x"></i
+          ></a>
+          <a href="https://twitter.com/thasquirrie"
+            ><i class="fab fa-twitter fa-3x"></i
+          ></a>
+          <a href="https://facebook.com/thadonzulu"
+            ><i class="fab fa-facebook fa-3x"></i
+          ></a>
+          <a href="https://instagram.com/thadonzulu"
+            ><i class="fab fa-instagram fa-3x"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

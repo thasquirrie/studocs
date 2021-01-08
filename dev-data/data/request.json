@@ -1,0 +1,145 @@
+[
+  {
+    "title": "CSC 435",
+    "_id": "5c88fa8cf4afda39709c2955",
+    "body": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, iusto quasi? Facere blanditiis iusto eligendi perferendis inventore repellendus rem, autem voluptatem, quos odio, sit earum alias obcaecati animi vero eum.",
+    "category": "Computer Science",
+    "user": "5c8a1d5b0190b214360dc057",
+    "date": "2020-07-19T13:40:00.000Z"
+  },
+  {
+    "title": "CSC 432",
+    "_id": "5c88fa8cf4afda39709c2951",
+    "body": "Cras mollis nisi parturient mi nec aliquet suspendisse sagittis eros condimentum scelerisque taciti mattis praesent feugiat eu nascetur a tincidunt",
+    "rating": 5,
+    "user": "5c8a1dfa2f8fb814b56fa181",
+    "category": "Mathematics",
+    "date": "2021-06-22T09:00:00.000Z"
+  },
+  {
+    "title": "CSC 411",
+    "_id": "5c88fa8cf4afda39709c295a",
+    "body": "Tempus curabitur faucibus auctor bibendum duis gravida tincidunt litora himenaeos facilisis vivamus vehicula potenti semper fusce suspendisse sagittis!",
+    "rating": 4,
+    "user": "5c8a1dfa2f8fb814b56fa181",
+    "category": "Botany",
+    "date": "2021-06-19T01:00:00.000Z"
+  },
+  {
+    "title": "CSC 433",
+    "_id": "5c88fa8cf4afda39709c2961",
+    "body": "Convallis turpis porttitor sapien ad urna efficitur dui vivamus in praesent nulla hac non potenti!",
+    "rating": 5,
+    "user": "5c8a1dfa2f8fb814b56fa181",
+    "category": "Chemistry",
+    "date": "2021-06-09T09:00:00.000Z"
+  },
+  {
+    "title": "CSC 410",
+    "_id": "5c88fa8cf4afda39709c295d",
+    "body": "Habitasse scelerisque class quam primis convallis integer eros congue nulla proin nam faucibus parturient.",
+    "rating": 4,
+    "user": "5c8a1dfa2f8fb814b56fa181",
+    "category": "Computer Science",
+    "date": "2021-06-19T09:00:00.000Z"
+  },
+  {
+    "title": "CSC 421",
+    "_id": "5c88fa8cf4afda39709c2966",
+    "body": "Cras consequat fames faucibus ac aliquam dolor a euismod porttitor rhoncus venenatis himenaeos montes tristique pretium libero nisi!",
+    "rating": 5,
+    "user": "5c8a1e1a2f8fb814b56fa182",
+    "category": "Computer Science",
+    "date": "2021-06-19T09:00:00.000Z"
+  },
+  {
+    "title": "CSC 452",
+    "_id": "5c88fa8cf4afda39709c2970",
+    "body": "Laoreet justo volutpat per etiam donec at augue penatibus eu facilisis lorem phasellus ipsum tristique urna quam platea.",
+    "rating": 5,
+    "user": "5c8a1e1a2f8fb814b56fa182",
+    "category": "Statistics",
+    "date": "2021-06-19T09:00:00.000Z"
+  },
+  {
+    "title": "CSC 468",
+    "_id": "5c88fa8cf4afda39709c2974",
+    "body": "Senectus lectus eleifend ex lobortis cras nam cursus accumsan tellus lacus faucibus himenaeos posuere!",
+    "rating": 5,
+    "user": "5c8a1e1a2f8fb814b56fa182",
+    "category": "Geology",
+    "date": "2020-05-19T09:00:00.000Z"
+  },
+  {
+    "title": "CSC 532",
+    "_id": "5c88fa8cf4afda39709c296c",
+    "body": "Pulvinar taciti etiam aenean lacinia natoque interdum fringilla suspendisse nam sapien urna!",
+    "rating": 4,
+    "user": "5c8a1e1a2f8fb814b56fa182",
+    "category": "Microbiology",
+    "date": "2020-09-29T09:45:00.000Z"
+  },
+  {
+    "title": "CSC 546",
+    "_id": "5c8a379a14eb5c17645c9110",
+    "body": "Pretium vel inceptos fringilla sit dui fusce varius gravida platea morbi semper erat elit porttitor potenti!",
+    "rating": 5,
+    "user": "5c8a24402f8fb814b56fa190",
+    "category": "Mathematics",
+    "date": "2021-06-19T09:00:00.000Z"
+  },
+  {
+    "title": "CSC 418",
+    "_id": "5c8a37b114eb5c17645c9111",
+    "body": "Ex a bibendum quis volutpat consequat euismod vulputate parturient laoreet diam sagittis amet at blandit.",
+    "rating": 4,
+    "user": "5c8a24402f8fb814b56fa190",
+    "category": "Computer Science",
+    "date": "2021-06-19T09:00:00.000Z"
+  },
+  {
+    "title": "CSC 469",
+    "_id": "5c8a37cb14eb5c17645c9112",
+    "body": "Auctor euismod interdum augue tristique senectus nascetur cras justo eleifend mattis libero id adipiscing amet placerat",
+    "rating": 5,
+    "user": "5c8a24402f8fb814b56fa190",
+    "category": "Chemistry",
+    "date": "2021-06-19T09:00:00.000Z"
+  },
+  {
+    "title": "CSC 489",
+    "_id": "5c8a37dd14eb5c17645c9113",
+    "body": "A facilisi justo ornare magnis velit diam dictumst parturient arcu nullam rhoncus nec!",
+    "rating": 4,
+    "user": "5c8a24402f8fb814b56fa190",
+    "category": "Zoology",
+    "date": "2021-06-19T09:00:00.000Z"
+  },
+  {
+    "title": "CSC 401",
+    "_id": "5c8a37f114eb5c17645c9114",
+    "body": "Porttitor ullamcorper rutrum semper proin mus felis varius convallis conubia nisl erat lectus eget.",
+    "rating": 5,
+    "user": "5c8a24402f8fb814b56fa190",
+    "category": "Computer Science",
+    "date": "2021-06-19T09:00:00.000Z"
+  },
+  {
+    "title": "CSC 409",
+    "_id": "5c8a381714eb5c17645c9115",
+    "body": "Porttitor ullamcorper rutrum semper proin mus felis varius convallis conubia nisl erat lectus eget.",
+    "rating": 5,
+    "user": "5c8a1ec62f8fb814b56fa183",
+    "category": "Computer Science",
+    "date": "2021-06-19T09:00:00.000Z"
+  },
+  {
+    "title": "CSC 419",
+    "_id": "5c8a382d14eb5c17645c9116",
+    "body": "Semper blandit felis nostra facilisi sodales pulvinar habitasse diam sapien lobortis urna nunc ipsum orci.",
+    "rating": 5,
+    "user": "5c8a1ec62f8fb814b56fa183",
+    "category": "Computer Science",
+    "date": "2021-06-19T09:00:00.000Z"
+  }
+]

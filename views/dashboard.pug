@@ -1,0 +1,32 @@
+extends base
+
+block content
+  main.main
+    .user-view
+      include _side-nav
+      .user-view__content
+        //- .user-view__form-container
+        //- h2.heading-secondary.ma-bt-md Your account settings
+        section
+          .py-2.outline.search
+            //- .container
+            form.search-form(action='')
+              i.fas.fa-search.fa-2x
+              input(type='text' name='search' placeholder='Find study resources')
+              input.btn.btn-primary(type='submit' value='Search')
+
+        section.books
+          h4.heading-secondary.center Books and Courses
+          //- i.fas.fa-file-pdf.fa-3x New PDF
+          .container.grid.content
+            .card.file
+              a(href="")
+                img.pdf(src="/img/file-pdf-solid.svg" alt="" srcset="")
+                span.file-name New PDF
+            .card.file
+              a(href="#")
+                img.pdf(src="/img/file-pdf-solid.svg" alt="" srcset="")
+                span.file-name New PDF
+          a.btn.btn-primary(href='features.html') 
+            i.fas.fa-plus 
+            |  Add documents

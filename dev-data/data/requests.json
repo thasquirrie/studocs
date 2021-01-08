@@ -1,0 +1,155 @@
+[
+  {
+    "_id": "5c88fa8cf4afda39709c2955",
+    "category": "Computer Science",
+    "title": "CSC 435",
+    "body": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, iusto quasi? Facere blanditiis iusto eligendi perferendis inventore repellendus rem, autem voluptatem, quos odio, sit earum alias obcaecati animi vero eum.",
+    "user": "5c8a1d5b0190b214360dc057",
+    "dateCreated": "2020-11-09T15:38:21.464Z",
+    "__v": 0
+  },
+  {
+    "_id": "5c88fa8cf4afda39709c2951",
+    "category": "Mathematics",
+    "title": "CSC 432",
+    "body": "Cras mollis nisi parturient mi nec aliquet suspendisse sagittis eros condimentum scelerisque taciti mattis praesent feugiat eu nascetur a tincidunt",
+    "user": "5c8a1dfa2f8fb814b56fa181",
+    "dateCreated": "2020-11-09T15:38:21.466Z",
+    "__v": 0
+  },
+  {
+    "_id": "5c88fa8cf4afda39709c295a",
+    "category": "Botany",
+    "title": "CSC 411",
+    "body": "Tempus curabitur faucibus auctor bibendum duis gravida tincidunt litora himenaeos facilisis vivamus vehicula potenti semper fusce suspendisse sagittis!",
+    "user": "5c8a1dfa2f8fb814b56fa181",
+    "dateCreated": "2020-11-09T15:38:21.467Z",
+    "__v": 0
+  },
+  {
+    "_id": "5c88fa8cf4afda39709c2961",
+    "category": "Chemistry",
+    "title": "CSC 433",
+    "body": "Convallis turpis porttitor sapien ad urna efficitur dui vivamus in praesent nulla hac non potenti!",
+    "user": "5c8a1dfa2f8fb814b56fa181",
+    "dateCreated": "2020-11-09T15:38:21.467Z",
+    "__v": 0
+  },
+  {
+    "_id": "5c88fa8cf4afda39709c295d",
+    "category": "Computer Science",
+    "title": "CSC 410",
+    "body": "Habitasse scelerisque class quam primis convallis integer eros congue nulla proin nam faucibus parturient.",
+    "user": "5c8a1dfa2f8fb814b56fa181",
+    "dateCreated": "2020-11-09T15:38:21.468Z",
+    "__v": 0
+  },
+  {
+    "_id": "5c88fa8cf4afda39709c2966",
+    "category": "Computer Science",
+    "title": "CSC 421",
+    "body": "Cras consequat fames faucibus ac aliquam dolor a euismod porttitor rhoncus venenatis himenaeos montes tristique pretium libero nisi!",
+    "user": "5c8a1e1a2f8fb814b56fa182",
+    "dateCreated": "2020-11-09T15:38:21.468Z",
+    "__v": 0
+  },
+  {
+    "_id": "5c88fa8cf4afda39709c2970",
+    "category": "Statistics",
+    "title": "CSC 452",
+    "body": "Laoreet justo volutpat per etiam donec at augue penatibus eu facilisis lorem phasellus ipsum tristique urna quam platea.",
+    "user": "5c8a1e1a2f8fb814b56fa182",
+    "dateCreated": "2020-11-09T15:38:21.469Z",
+    "__v": 0
+  },
+  {
+    "_id": "5c88fa8cf4afda39709c2974",
+    "category": "Geology",
+    "title": "CSC 468",
+    "body": "Senectus lectus eleifend ex lobortis cras nam cursus accumsan tellus lacus faucibus himenaeos posuere!",
+    "user": "5c8a1e1a2f8fb814b56fa182",
+    "dateCreated": "2020-11-09T15:38:21.470Z",
+    "__v": 0
+  },
+  {
+    "_id": "5c88fa8cf4afda39709c296c",
+    "category": "Microbiology",
+    "title": "CSC 532",
+    "body": "Pulvinar taciti etiam aenean lacinia natoque interdum fringilla suspendisse nam sapien urna!",
+    "user": "5c8a1e1a2f8fb814b56fa182",
+    "dateCreated": "2020-11-09T15:38:21.470Z",
+    "__v": 0
+  },
+  {
+    "_id": "5c8a379a14eb5c17645c9110",
+    "category": "Mathematics",
+    "title": "CSC 546",
+    "body": "Pretium vel inceptos fringilla sit dui fusce varius gravida platea morbi semper erat elit porttitor potenti!",
+    "user": "5c8a24402f8fb814b56fa190",
+    "dateCreated": "2020-11-09T15:38:21.470Z",
+    "__v": 0
+  },
+  {
+    "_id": "5c8a37b114eb5c17645c9111",
+    "category": "Computer Science",
+    "title": "CSC 418",
+    "body": "Ex a bibendum quis volutpat consequat euismod vulputate parturient laoreet diam sagittis amet at blandit.",
+    "user": "5c8a24402f8fb814b56fa190",
+    "dateCreated": "2020-11-09T15:38:21.471Z",
+    "__v": 0
+  },
+  {
+    "_id": "5c8a37cb14eb5c17645c9112",
+    "category": "Chemistry",
+    "title": "CSC 469",
+    "body": "Auctor euismod interdum augue tristique senectus nascetur cras justo eleifend mattis libero id adipiscing amet placerat",
+    "user": "5c8a24402f8fb814b56fa190",
+    "dateCreated": "2020-11-09T15:38:21.471Z",
+    "__v": 0
+  },
+  {
+    "_id": "5c8a37dd14eb5c17645c9113",
+    "category": "Zoology",
+    "title": "CSC 489",
+    "body": "A facilisi justo ornare magnis velit diam dictumst parturient arcu nullam rhoncus nec!",
+    "user": "5c8a24402f8fb814b56fa190",
+    "dateCreated": "2020-11-09T15:38:21.471Z",
+    "__v": 0
+  },
+  {
+    "_id": "5c8a37f114eb5c17645c9114",
+    "category": "Computer Science",
+    "title": "CSC 401",
+    "body": "Porttitor ullamcorper rutrum semper proin mus felis varius convallis conubia nisl erat lectus eget.",
+    "user": "5c8a24402f8fb814b56fa190",
+    "dateCreated": "2020-11-09T15:38:21.472Z",
+    "__v": 0
+  },
+  {
+    "_id": "5c8a381714eb5c17645c9115",
+    "category": "Computer Science",
+    "title": "CSC 409",
+    "body": "Porttitor ullamcorper rutrum semper proin mus felis varius convallis conubia nisl erat lectus eget.",
+    "user": "5c8a1ec62f8fb814b56fa183",
+    "dateCreated": "2020-11-09T15:38:21.472Z",
+    "__v": 0
+  },
+  {
+    "_id": "5c8a382d14eb5c17645c9116",
+    "category": "Computer Science",
+    "title": "CSC 419",
+    "body": "Semper blandit felis nostra facilisi sodales pulvinar habitasse diam sapien lobortis urna nunc ipsum orci.",
+    "user": "5c8a1ec62f8fb814b56fa183",
+    "dateCreated": "2020-11-09T15:38:21.472Z",
+    "__v": 0
+  },
+  {
+    "_id": "5faa5fc1e5aae63b7cd2bbea",
+    "category": "Computer Science",
+    "title": "CSC 124",
+    "body": "This is a numb feeling, it's a miracle that I can continue doing this.",
+    "user": "5fa96297ea9f34268cc25136",
+    "dateCreated": "2020-11-10T09:39:13.525Z",
+    "__v": 0
+  }
+]

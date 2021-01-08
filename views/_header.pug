@@ -1,0 +1,31 @@
+// Navbar
+.navbar
+  .container.flex
+    h1.logo 
+      a.logo-link(href="/") Studocs
+    nav
+      -console.log('User', user)
+      if user
+        ul
+          li
+            a.logout Logout
+          li
+            a(href='/dashboard') Dashboard
+          li
+            a Features
+          li
+            a.nav__el(href='/dashboard')
+              img.nav__user-img(src=`/img/users/${user.photo}` alt=`Photo of ${user.name}`)
+              span= user.name.split(' ')[0]
+      else 
+        ul
+          li
+            a(href='/signup') Sign up
+          //- li
+            a(href='/') Dashboard
+          li
+            a(href='/login') Log in
+          li
+            a(href='/features') Features
+          li
+            a(href='/') Home
