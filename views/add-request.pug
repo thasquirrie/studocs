@@ -1,0 +1,21 @@
+extend base
+
+block content
+  section.container
+    .login-form
+      h2.heading-secondary.ma-bt-lg Make a request for the resource you need
+      form#request.form
+        //- .form__group
+        //-   //- label.form__label(for='user_id') User ID
+        //-   input#user_id.form__input(type='hidden' value=`${userId}`, required autocomplete='review' readonly)
+        //- .form__group
+        //-   //- label.form__label(for='tour_id') Tour ID
+        //-   input#tour_id.form__input(type='hidden' value=`${tourId}`, required autocomplete='review' readonly)
+        .form__group
+          label.form__label(for='title') Title
+          input#title.form__input(type='text' placeholder='Title of request', autocomplete='title')
+        .form__group
+          label.form__label(for='request') Request
+          textarea#requests.form__input(type='text' placeholder='Body of request', required autocomplete='request')
+        .form__group
+          button.btn.btn--green Submit

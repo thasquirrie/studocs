@@ -4,7 +4,7 @@
     h1.logo 
       a.logo-link(href="/") Studocs
     nav
-      -console.log('User', user)
+      //- -console.log('User', user)
       if user
         ul
           li
@@ -12,7 +12,7 @@
           li
             a(href='/dashboard') Dashboard
           li
-            a Features
+            a(href='/features') Requests
           li
             a.nav__el(href='/dashboard')
               img.nav__user-img(src=`/img/users/${user.photo}` alt=`Photo of ${user.name}`)
@@ -20,12 +20,12 @@
       else 
         ul
           li
-            a(href='/signup') Sign up
+            a(href='/signup') Signup
           //- li
             a(href='/') Dashboard
           li
-            a(href='/login') Log in
+            a(href='/login') Login
           li
-            a(href='/features') Features
+            a(href='/features') Requests
           li
             a(href='/') Home

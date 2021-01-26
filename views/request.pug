@@ -1,0 +1,55 @@
+extends base
+
+block content
+  .container.mht
+    .request
+      .card.card-small
+        h4.request-title=request.title
+        p.request-body=request.request
+        hr
+        .captions
+          p.user-name=`${request.user.name} `
+            i.fas.fa-user
+          p.date=`${request.dateCreated.toDateString()} ${request.dateCreated.toLocaleTimeString()} `
+            i.fas.fa-clock
+        hr
+
+      //- textarea(name="comment", cols="30", rows="10" placeholder='Make a response')
+
+      h3.centers Responses
+      
+      .card
+        form#login.form
+          .form__group
+            label.form-label(for='comment') Add response
+            input#comment.form-input(type='text' placeholder='Respond to this request')
+          .form__group
+            //- label.form-label(for='file') Add response
+            input.form-input(type='file' placeholder='Upload a file' name='file', id='file')
+          //- input(type="file" name="file" id='file')
+          //- label.form__label(for="file") Upload a file
+          .form__group
+            button.btn.btn--green Submit
+
+      -if (request.comments.length === 0)
+        p.card No responses yet. Be the first to respond to this.
+      -else 
+        each comment in request.comments
+          .card.comment.card-small
+            p=comment.comment
+            -if (comment.file)
+              a.download(href=`/uploads/${comment.file.name}`)=comment.file.name
+                //- p to download.
+            hr
+            .captions
+              p.user-name=`${comment.user.name} ` 
+                i.fas.fa-user
+              p.date=`${comment.dateCreated.toDateString()} ${comment.dateCreated.toLocaleTimeString()} `
+                i.fas.fa-clock
+            hr
+    .card.user
+      img.nav__user-img-1(src=`/img/users/${request.user.photo}`)
+      p.user-name=`Name: ${request.user.name}`
+      p.user-name=`Email: ${request.user.email}`
+      -if (request.user.department !== 'Specify your department')
+        p.user-name=`Department: ${request.user.department}`

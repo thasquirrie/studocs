@@ -4,7 +4,7 @@ const AppError = require('../utils/appError');
 const catchAsync = require('../utils/catchAsync');
 const handlerFactory = require('../controllers/handlerFactory');
 
-exports.getAllRequests = handlerFactory.getAll(Request);
+exports.getAllRequests = handlerFactory.getAll(Request, 'comments');
 
 exports.setUserOnRequest = (req, res, next) => {
   req.body.user = req.user._id;

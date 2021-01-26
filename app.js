@@ -20,6 +20,8 @@ const requestRouter = require('./routes/requestRoutes');
 const userRouter = require('./routes/userRoutes');
 const commentRouter = require('./routes/commentRoutes');
 const viewRouter = require('./routes/viewRoutes');
+const uploadRouter = require('./routes/uploadRoutes');
+
 const cookieParser = require('cookie-parser');
 
 // GLOBAL MIDDLEWARES
@@ -63,6 +65,7 @@ app.use('/api/v1/requests', requestRouter);
 app.use('/api/v1/users', userRouter);
 app.use('/api/v1/comments', commentRouter);
 app.use('/', viewRouter);
+app.use('/api/v1/uploads', uploadRouter);
 
 app.all('*', (req, res, next) => {
   // res.status(404).json({

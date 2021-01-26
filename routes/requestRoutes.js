@@ -8,22 +8,22 @@ const router = express.Router();
 router.use('/:requestId/comments', commentRouter);
 
 router
-  .route('/')
-  .get(requestController.getAllRequests)
-  .post(
-    authController.protect,
-    requestController.setUserOnRequest,
-    requestController.createRequest
-  );
+    .route('/')
+    .get(requestController.getAllRequests)
+    .post(
+        authController.protect,
+        requestController.setUserOnRequest,
+        requestController.createRequest
+    );
 
 router
-  .route('/:id')
-  .get(requestController.getRequest)
-  .delete(
-    authController.protect,
-    authController.restrictTo('admin', 'user'),
-    requestController.deleteRequest
-  )
-  .patch(requestController.updateRequest);
+    .route('/:id')
+    .get(requestController.getRequest)
+    .delete(
+        authController.protect,
+        authController.restrictTo('admin', 'user'),
+        requestController.deleteRequest
+    )
+    .patch(requestController.updateRequest);
 
 module.exports = router;

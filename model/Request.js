@@ -1,34 +1,31 @@
 const mongoose = require('mongoose');
 
-const requestSchema = new mongoose.Schema(
-  {
+const requestSchema = new mongoose.Schema({
     title: {
-      type: String,
-      required: [true, 'A request must have a title'],
-      unique: true,
+        type: String,
+        required: [true, 'A request must have a title'],
+        unique: true,
     },
-    body: {
-      type: String,
-      required: [true, 'A request must have a body'],
+    request: {
+        type: String,
+        required: [true, 'A request must have a body'],
     },
     category: {
-      type: String,
-      default: 'Computer Science',
+        type: String,
+        default: 'Computer Science',
     },
     user: {
-      type: mongoose.Schema.ObjectId,
-      ref: 'User',
+        type: mongoose.Schema.ObjectId,
+        ref: 'User',
     },
     dateCreated: {
-      type: Date,
-      default: Date.now,
+        type: Date,
+        default: Date.now,
     },
-  },
-  {
+}, {
     toJSON: { virtuals: true },
     toObject: { virtuals: true },
-  }
-);
+});
 
 // Virtual populate
 
@@ -37,17 +34,17 @@ const requestSchema = new mongoose.Schema(
 // })
 
 requestSchema.virtual('comments', {
-  ref: 'Comment',
-  foreignField: 'request',
-  localField: '_id',
+    ref: 'Comment',
+    foreignField: 'request',
+    localField: '_id',
 });
 
-requestSchema.pre(/^find/, function (next) {
-  this.populate({
-    path: 'user',
-    select: 'name',
-  });
-  next();
+requestSchema.pre(/^find/, function(next) {
+    this.populate({
+        path: 'user',
+        // select: 'name',
+    });
+    next();
 });
 
 const Request = mongoose.model('Request', requestSchema);

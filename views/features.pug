@@ -1,0 +1,60 @@
+extends base
+
+block content
+  -if (!requests)
+    .card
+      p 'No requests found! Try again later. Thanks'
+  -else
+    .container
+      .info
+        if user
+          p
+            | Need an educational resource click on the 
+            i.fa.fa-plus.white
+            |
+            | button at the bottom right of this page to make a request.
+            | 
+            | You are gonna get a response from one of your colleague who has the resource.
+          //- p You are welcome
+        else
+          p
+            | Need an educational resource click on the 
+            i.fas.fa-sign-in-alt.white
+            |
+            | button at the bottom right of this page to login and then make a request.
+            | 
+            | You are gonna get a response from one of your colleague who has the resource.
+      h2.title Requests
+
+
+      each request in requests
+        .card.card-small
+          -console.log(request.request);
+          a(href=`/request/${request._id}`)
+            h4.request-title=request.title
+            p.request-body=request.request
+          hr
+          .captions
+            
+            p.user-name=`${request.user.name} `
+              i.fas.fa-user
+            p.date=`${request.dateCreated.toDateString()}, ${request.dateCreated.toLocaleTimeString()} `
+              i.fas.fa-clock
+  
+  if user
+    if user.role === 'user'
+      a.float(href=`/add-request`)
+        i.fa.fa-plus.my-float
+      .label-container
+        .label-text Add request
+        i.fa.fa-play.label-arrow
+  else 
+    a.float(href=`/login`)
+      //- i.fa.fa-sign-in.my-float
+      //- i.fa.fa-plus.my-float
+      i.fas.fa-sign-in-alt.my-float
+    .label-container
+      .label-text Login to make request
+      i.fa.fa-play.label-arrow
+
+  
