@@ -33,7 +33,7 @@ const comments = JSON.parse(
 );
 // console.log(requests.length);
 
-console.log(process.argv[2]);
+// console.log(process.argv[2]);
 
 const importData = async() => {
     try {

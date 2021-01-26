@@ -59,7 +59,7 @@ exports.setRequestAndUserId = (req, res, next) => {
 // })
 
 exports.createComment = catchAsync(async(req, res, next) => {
-    console.log('Both reqs:', req.file, req.body);
+    // console.log('Both reqs:', req.file, req.body);
     if (!req.file && !req.body.comment) return next(new AppError('At least one of the input field is needed to post comment', 400));
 
     let upload, comment, commentBody, newUpload = {};
@@ -91,11 +91,7 @@ exports.createComment = catchAsync(async(req, res, next) => {
         };
 
         comment = await new Comment(commentBody).save();
-    }
-
-
-    // if (req.file) upload = await Upload.create(newUpload)
-    // if (req.file) commentBody.file = 
+    };
 
     console.log({ commentBody, newUpload, upload, comment });
 
@@ -112,7 +108,7 @@ exports.createReply = catchAsync(async(req, res, next) => {
     const reply = {
         body: req.body.body,
         replyUser: req.user.id,
-    };
+    }; 
 
     const comment = await Comment.findById(req.params.id);
 
