@@ -5,14 +5,14 @@ export const addRequest = async(title, request) => {
     try {
         const res = await axios({
             method: 'POST',
-            url: 'http://localhost:6000/api/v1/requests',
+            url: '/api/v1/requests',
             data: {
                 title,
                 request,
             },
         });
 
-        console.log(res);
+        // console.log(res);
         if (res.data.status === 'success') {
             showAlert('success', 'Add request successfully');
             window.setTimeout(() => {
@@ -21,8 +21,8 @@ export const addRequest = async(title, request) => {
             }, 1500);
         }
     } catch (err) {
-        console.log(err.response.data.message);
+        // console.log(err.response.data.message);
         showAlert('error', err.response.data.message);
-        console.log(err);
+        // console.log(err);
     }
 };
