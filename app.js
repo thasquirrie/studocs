@@ -43,17 +43,18 @@ app.use(mongoSanitize());
 // Data Sanization agains XSS
 app.use(xss());
 app.use(compression());
+console.log(`Enviroment is :, ${process.env.NODE_ENV}. That's what it is`);
 
 // Development logging
 if (process.env.NODE_ENV === 'development') {
-  app.use(morgan('dev'));
+    app.use(morgan('dev'));
 }
 
 // Limit request from the same API
 const limiter = rateLimit({
-  max: 100,
-  windowsMs: 60 * 60 * 1000,
-  message: 'Too many requests from this IP, please try again in an hour',
+    max: 100,
+    windowsMs: 60 * 60 * 1000,
+    message: 'Too many requests from this IP, please try again in an hour',
 });
 
 app.use('/api', limiter);
@@ -70,12 +71,12 @@ app.use('/', viewRouter);
 app.use('/api/v1/uploads', uploadRouter);
 
 app.all('*', (req, res, next) => {
-  // res.status(404).json({
-  //   status: 'fail',
-  //   message: `${req.originalUrl} not found on this server!`
-  // });
+    // res.status(404).json({
+    //   status: 'fail',
+    //   message: `${req.originalUrl} not found on this server!`
+    // });
 
-  next(new AppError(`${req.originalUrl} not found on this server`, 404));
+    next(new AppError(`${req.originalUrl} not found on this server`, 404));
 });
 
 app.use(globalErrorHandler);
